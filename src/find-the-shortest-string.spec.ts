@@ -1,5 +1,5 @@
 // import function from local file
-import findShortestString from "./find-shortest-string";
+import findShortestString from "./find-the-shortest-string";
 
 test("findShortestString finds the shortest string in an array", () => {
   expect(findShortestString(["it", "is", "a", "nice", "day"])).toBe("a");
